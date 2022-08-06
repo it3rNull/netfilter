@@ -35,4 +35,5 @@ typedef struct
     u_int32_t tcp_ack;
     u_int8_t tcp_reserved : 4,
         tcp_offset : 4;
+
 } tcp_hdr;
